@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,74,0,0,1,-22"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="botonBuscar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="botonBuscarActionPerformed"/>
+      </Events>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="290" y="60" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="140" width="270" height="180"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="textoDescripcion">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="labelAlimento">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="sansserif" size="24" style="1"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="30" y="100" width="-1" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fotoAlimento">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="320" y="160" width="140" height="130"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="entryAlimento">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="cc" type="rgb"/>
+        </Property>
+        <Property name="editable" type="boolean" value="true"/>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="166">
+            <StringItem index="0" value="Aceite"/>
+            <StringItem index="1" value="Acelga"/>
+            <StringItem index="2" value="Aguacate"/>
+            <StringItem index="3" value="Albaricoque"/>
+            <StringItem index="4" value="Apio"/>
+            <StringItem index="5" value="Arroz"/>
+            <StringItem index="6" value="Arroz con pollo"/>
+            <StringItem index="7" value="Arroz integral"/>
+            <StringItem index="8" value="Arveja seca"/>
+            <StringItem index="9" value="Arveja tierna"/>
+            <StringItem index="10" value="At&#xfa;n"/>
+            <StringItem index="11" value="Avena"/>
+            <StringItem index="12" value="Az&#xfa;car"/>
+            <StringItem index="13" value="Az&#xfa;car morena"/>
+            <StringItem index="14" value="Babaco"/>
+            <StringItem index="15" value="Berenjena"/>
+            <StringItem index="16" value="Brocoli"/>
+            <StringItem index="17" value="Caf&#xe9;"/>
+            <StringItem index="18" value="Caf&#xe9; con leche"/>
+            <StringItem index="19" value="Caf&#xe9; con leche descremada"/>
+            <StringItem index="20" value="Caldo de res"/>
+            <StringItem index="21" value="Camar&#xf3;n"/>
+            <StringItem index="22" value="Camarones apanados"/>
+            <StringItem index="23" value="Camote"/>
+            <StringItem index="24" value="Canguil"/>
+            <StringItem index="25" value="Carne asada"/>
+            <StringItem index="26" value="Cebada de arroz"/>
+            <StringItem index="27" value="Cebolla"/>
+            <StringItem index="28" value="Cerdo"/>
+            <StringItem index="29" value="Cereal corn flakes"/>
+            <StringItem index="30" value="Cereal Fitness"/>
+            <StringItem index="31" value="Cereal Zucaritas Kelloggs"/>
+            <StringItem index="32" value="Champi&#xf1;ones"/>
+            <StringItem index="33" value="Chirimoya"/>
+            <StringItem index="34" value="Choclo"/>
+            <StringItem index="35" value="Coco"/>
+            <StringItem index="36" value="Col morada"/>
+            <StringItem index="37" value="Col verde"/>
+            <StringItem index="38" value="Coliflor"/>
+            <StringItem index="39" value="Consom&#xe9; de pollo"/>
+            <StringItem index="40" value="Corvina"/>
+            <StringItem index="41" value="Crema de espinacas"/>
+            <StringItem index="42" value="Crema de zanahoria"/>
+            <StringItem index="43" value="Crema Pasteurizada"/>
+            <StringItem index="44" value="Culantro"/>
+            <StringItem index="45" value="Durazno"/>
+            <StringItem index="46" value="Ensalada de frutas"/>
+            <StringItem index="47" value="Ensalada de lechuga con verduras"/>
+            <StringItem index="48" value="Espinaca"/>
+            <StringItem index="49" value="Estofado de carne"/>
+            <StringItem index="50" value="Fideos"/>
+            <StringItem index="51" value="Frejol seco"/>
+            <StringItem index="52" value="Frejol tierno"/>
+            <StringItem index="53" value="Frutilla"/>
+            <StringItem index="54" value="Galletas de avena"/>
+            <StringItem index="55" value="Galletas de dulce"/>
+            <StringItem index="56" value="Galletas de sal"/>
+            <StringItem index="57" value="Gaseosa"/>
+            <StringItem index="58" value="Gelatina"/>
+            <StringItem index="59" value="Granadilla"/>
+            <StringItem index="60" value="Guanabana"/>
+            <StringItem index="61" value="Guayaba"/>
+            <StringItem index="62" value="Guineo"/>
+            <StringItem index="63" value="Haba"/>
+            <StringItem index="64" value="Hamburguesa"/>
+            <StringItem index="65" value="Harina de Trigo"/>
+            <StringItem index="66" value="Higo"/>
+            <StringItem index="67" value="Hot dog"/>
+            <StringItem index="68" value="Huevo"/>
+            <StringItem index="69" value="Huevo revuelto"/>
+            <StringItem index="70" value="Jugo de guayaba"/>
+            <StringItem index="71" value="Jugo de lim&#xf3;n"/>
+            <StringItem index="72" value="Jugo de maracuy&#xe1;"/>
+            <StringItem index="73" value="Jugo de mora"/>
+            <StringItem index="74" value="Jugo de naranja"/>
+            <StringItem index="75" value="Jugo de naranjilla"/>
+            <StringItem index="76" value="Jugo de papaya"/>
+            <StringItem index="77" value="Jugo de pi&#xf1;a"/>
+            <StringItem index="78" value="Jugo de tomate"/>
+            <StringItem index="79" value="Jugo de toronja"/>
+            <StringItem index="80" value="Jugo de zanahoria"/>
+            <StringItem index="81" value="Kiwi"/>
+            <StringItem index="82" value="Leche con avena"/>
+            <StringItem index="83" value="Leche con chocolate"/>
+            <StringItem index="84" value="Leche condensada"/>
+            <StringItem index="85" value="Leche descremada"/>
+            <StringItem index="86" value="Leche en polvo"/>
+            <StringItem index="87" value="Leche Pasteurizada"/>
+            <StringItem index="88" value="Lechuga"/>
+            <StringItem index="89" value="Lenteja"/>
+            <StringItem index="90" value="Lim&#xf3;n"/>
+            <StringItem index="91" value="Mandarina"/>
+            <StringItem index="92" value="Mango"/>
+            <StringItem index="93" value="Manteca de cerdo"/>
+            <StringItem index="94" value="Mantequilla"/>
+            <StringItem index="95" value="Manzana"/>
+            <StringItem index="96" value="Maracuy&#xe1;"/>
+            <StringItem index="97" value="Margarina"/>
+            <StringItem index="98" value="Mayonesa"/>
+            <StringItem index="99" value="Melloco"/>
+            <StringItem index="100" value="Mel&#xf3;n"/>
+            <StringItem index="101" value="Menestra"/>
+            <StringItem index="102" value="Mermelada"/>
+            <StringItem index="103" value="Miel de abeja"/>
+            <StringItem index="104" value="Mora"/>
+            <StringItem index="105" value="Mortadela"/>
+            <StringItem index="106" value="Mostaza"/>
+            <StringItem index="107" value="Nabo"/>
+            <StringItem index="108" value="Naranja"/>
+            <StringItem index="109" value="Naranjilla"/>
+            <StringItem index="110" value="Pan"/>
+            <StringItem index="111" value="Pan blanco"/>
+            <StringItem index="112" value="Pan con jam&#xf3;n y queso"/>
+            <StringItem index="113" value="Pan integral"/>
+            <StringItem index="114" value="Panela"/>
+            <StringItem index="115" value="Papa"/>
+            <StringItem index="116" value="Papaya"/>
+            <StringItem index="117" value="Pepino"/>
+            <StringItem index="118" value="Pera"/>
+            <StringItem index="119" value="Perejil"/>
+            <StringItem index="120" value="Pescado apanado"/>
+            <StringItem index="121" value="Pescado frito"/>
+            <StringItem index="122" value="Pimiento"/>
+            <StringItem index="123" value="Pi&#xf1;a"/>
+            <StringItem index="124" value="Pizza"/>
+            <StringItem index="125" value="Pl&#xe1;tano maduro"/>
+            <StringItem index="126" value="Pl&#xe1;tano verde"/>
+            <StringItem index="127" value="Pollo"/>
+            <StringItem index="128" value="Pollo a la plancha"/>
+            <StringItem index="129" value="Pollo apanado"/>
+            <StringItem index="130" value="Pollo asado"/>
+            <StringItem index="131" value="Pollo frito"/>
+            <StringItem index="132" value="Queso"/>
+            <StringItem index="133" value="Queso Crema"/>
+            <StringItem index="134" value="Quinoa"/>
+            <StringItem index="135" value="Remolacha"/>
+            <StringItem index="136" value="Res"/>
+            <StringItem index="137" value="Salchipapa"/>
+            <StringItem index="138" value="Salsa de tomate"/>
+            <StringItem index="139" value="Sand&#xed;a"/>
+            <StringItem index="140" value="Seco de carne"/>
+            <StringItem index="141" value="Sopa de fideo"/>
+            <StringItem index="142" value="Sopa de frej&#xf3;l"/>
+            <StringItem index="143" value="Sopa de habas"/>
+            <StringItem index="144" value="Sopa de lentejas"/>
+            <StringItem index="145" value="Sopa de papas"/>
+            <StringItem index="146" value="Sopa de pollo con verduras"/>
+            <StringItem index="147" value="Sopa de verduras"/>
+            <StringItem index="148" value="Soya"/>
+            <StringItem index="149" value="Tallarines"/>
+            <StringItem index="150" value="Tamarindo"/>
+            <StringItem index="151" value="Tomate de &#xe1;rbol"/>
+            <StringItem index="152" value="Tomate ri&#xf1;on"/>
+            <StringItem index="153" value="Toronja"/>
+            <StringItem index="154" value="Tuna"/>
+            <StringItem index="155" value="Uva"/>
+            <StringItem index="156" value="Vainita"/>
+            <StringItem index="157" value="Vinesa"/>
+            <StringItem index="158" value="Yogurt"/>
+            <StringItem index="159" value="Yogurth con frutas"/>
+            <StringItem index="160" value="Yuca"/>
+            <StringItem index="161" value="Zambo tierno"/>
+            <StringItem index="162" value="Zanahoria"/>
+            <StringItem index="163" value="Zapallo"/>
+            <StringItem index="164" value="Zapote"/>
+            <StringItem index="165" value=" "/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="165"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="20" y="60" width="250" height="-1"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+    <Component class="javax.swing.JLabel" name="labelFondo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/Imagenes/fondoConsulta.png"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="490" height="330"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>
